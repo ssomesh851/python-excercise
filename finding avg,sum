@@ -1,0 +1,7 @@
+n = eval(input('enter tuple of numbers:'))
+l = len(n)
+sum = 0
+for i in n:
+    sum=sum+i
+print('the sum=',sum)
+print('the average=',sum/l)
