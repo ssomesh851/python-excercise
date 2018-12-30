@@ -1,0 +1,51 @@
+#Write a program that accepts a sentence and calculate the number of letters and digits.
+s=input('enter the input:')
+d={'digit':0, 'letter':0}
+for i in s:
+    if i.isdigit():
+        d['digit']+=1
+    elif i.isalpha():
+        d['letter']+=1
+    else:
+        pass
+print('digit',d['digit'])
+print('letter',d['letter'])
+
+
+
+Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
+s=input('enter a input:')
+d={'UPPER':0, 'LOWER'=0}
+for i in s:
+    if i.islower():
+        d['LOWER']+=1
+    elif i.isupper():
+        d['UPPER']+=1
+    else:
+        pass
+print('UPPER',d['UPPER'])
+print('LOWER',d['lower'])
+
+
+#Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
+
+a = int(input('enter a number:'))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+n4 = int( "%s%s%s%s" % (a,a,a,a) )
+print(n1+n2+n3+n4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
